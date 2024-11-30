@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <style>
+        body {
+             font-family: Arial, sans-serif;
+            background-image: url('back.jpg');
+            background-size: cover;
+            background-position: header;
+            margin: 0;
+            padding: 0;
+
+        }
+        header {
+            background-color: #d49a89;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            color: white;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+        .gallery {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .gallery img {
+            width: 200px;
+            height: 150px;
+            margin: 10px;
+            border: 2px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Glamour Beauty Salon Gallery</h1>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="gallery.html">Gallery</a>
+        </nav>
+    </header>
+    <section>
+        <h2>Our Services and Styles</h2>
+        <div class="gallery">
+            <img src="IMG_4083.png" alt="Hair Styling">
+            <img src="IMG-20240913-WA0009.jpg" alt="Makeup Session">
+            <img src="IMG-20240913-WA0011.jpg" alt="Manicure & Pedicure">
+            <img src="IMG-20240913-WA0010.jpg" alt="Spa Treatments">
+        </div>
+    </section>
+</body>
+</html>
